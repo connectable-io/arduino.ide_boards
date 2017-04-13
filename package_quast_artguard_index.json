@@ -1,0 +1,29 @@
+{
+	"packages": [
+		{
+			"name": "connectable",
+			"maintainer": "Connectable",
+			"websiteURL": "https://www.connectable.io/",
+			"email": "info@connectable.io",
+			"help": {
+				"online": "https://jira.info.nl/browse/CONG"
+			},
+			"platforms": [
+				{
+					"name": "QUAST ArtGuard",
+					"architecture": "samd",
+					"version": "0.1.0",
+					"category": "Contributed",
+					"url": "",
+					"archiveFileName": "",
+					"checksum": "",
+					"size": "",
+					"help": {
+						"online": "https://jira.info.nl/browse/PAG"
+					}
+				}
+			],
+			"tools": []
+		}
+	]
+}
