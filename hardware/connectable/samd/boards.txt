@@ -1,0 +1,33 @@
+# QUAST ArtGuard
+# ---------------------------------------
+quast_artguard.name=QUAST ArtGuard
+
+quast_artguard.vid.0=0x2341
+quast_artguard.vid.1=0x2341
+
+quast_artguard.pid.0=0x804d
+quast_artguard.pid.1=0x004d
+
+quast_artguard.upload.tool=bossac
+quast_artguard.upload.protocol=sam-ba
+quast_artguard.upload.maximum_size=262144
+quast_artguard.upload.use_1200bps_touch=true
+quast_artguard.upload.wait_for_upload_port=true
+quast_artguard.upload.native_usb=true
+
+quast_artguard.build.mcu=cortex-m0plus
+quast_artguard.build.f_cpu=48000000L
+quast_artguard.build.usb_product="SODAQ ONE"
+quast_artguard.build.usb_manufacturer="SODAQ"
+quast_artguard.build.board=QUAST_ARTGUARD
+quast_artguard.build.core=arduino
+quast_artguard.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags} -DSECOND_I2C
+quast_artguard.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+quast_artguard.build.openocdscript=openocd_scripts/sodaq_one.cfg
+quast_artguard.build.variant=sodaq_one_artguard
+quast_artguard.build.variant_system_lib=
+quast_artguard.build.vid=0x2341
+quast_artguard.build.pid=0x804d
+
+quast_artguard.bootloader.tool=openocd
+quast_artguard.bootloader.file=zero/samd21_sam_ba.bin
