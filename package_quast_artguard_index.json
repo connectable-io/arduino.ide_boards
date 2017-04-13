@@ -4,7 +4,7 @@
 			"name": "connectable",
 			"maintainer": "Connectable",
 			"websiteURL": "https://www.connectable.io/",
-			"email": "info@connectable.io",
+			"email": "hello@connectable.io",
 			"help": {
 				"online": "https://jira.info.nl/browse/CONG"
 			},
@@ -14,13 +14,18 @@
 					"architecture": "samd",
 					"version": "0.1.0",
 					"category": "Contributed",
-					"url": "",
-					"archiveFileName": "",
-					"checksum": "",
-					"size": "",
+					"url": "https://bitbucket.info.nl/projects/ART/repos/arduino.ide_boards/raw/quastsamboards-0.1.0.tar.bz2?at=refs%2Fheads%2Fmaster",
+					"archiveFileName": "quastsamboards-0.1.0.tar.bz2",
+					"checksum": "SHA-256:1250dc28bf6a6e2190472326adc6b43ffb5b433c7b2a8b6d3af43738974486b1",
+					"size": "360462",
 					"help": {
 						"online": "https://jira.info.nl/browse/PAG"
-					}
+					},
+					"boards": [
+						{
+							"name": "QUAST ArtGuard"
+						}
+					],
 				}
 			],
 			"tools": []
